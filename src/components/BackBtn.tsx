@@ -1,10 +1,12 @@
 import { useNavigate } from "react-router-dom";
 
+import classes from './BackBtn.module.css'
+
 export function BackBtn() {
   const navigate = useNavigate();
   return (
     <>
-      <button onClick={() => navigate(-1)}>Voltar</button>
+      <button className={classes.back_btn} onClick={() => navigate(-1)}>Voltar</button>
     </>
   )
 }
