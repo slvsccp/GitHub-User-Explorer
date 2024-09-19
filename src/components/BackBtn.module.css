@@ -6,12 +6,13 @@
   cursor: pointer;
   padding: .5rem 1rem;
   border-radius: 5px;
-  background-color: #202020;
+  border: 2px solid #9da5d1;
   width: 5rem;
-  opacity: 0.9;
-  transition: opacity 0.3s;
+  background-color: #202020cf;
+  transition: transform 0.3s ease;
 
   &:hover {
-    opacity: 1;
+    background-color: #202020;
+    transform: scale(1.05);
   }
 }
