@@ -16,9 +16,9 @@ export function Repo({
   return (
     <div className={classes.repo}>
       <div>{name}</div>
-      <p>
+      <p className={classes.language}>
         <BsCodeSlash />
-        {language}
+        <span>{language}</span>
       </p>
       <div className={classes.stats}>
         <div>
